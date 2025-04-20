@@ -5,8 +5,10 @@ import ProductGrid from './components/Cards'
 import Contact from './components/Contact'
 import HeroSection from './components/Hero'
 import Home from './components/Home'
+import TopSeller from './components/TopSeller'
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+
 
 const allPaths = createBrowserRouter([
   {
@@ -16,6 +18,7 @@ const allPaths = createBrowserRouter([
       <Home />
       <HeroSection/>
       <ProductGrid />
+      <TopSeller />
       </>
     )
   },
