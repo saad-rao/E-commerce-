@@ -3,6 +3,7 @@ import './App.css'
 import About from './components/About'
 import ProductGrid from './components/Cards'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import HeroSection from './components/Hero'
 import Home from './components/Home'
 import TopSeller from './components/TopSeller'
@@ -19,6 +20,7 @@ const allPaths = createBrowserRouter([
       <HeroSection/>
       <ProductGrid />
       <TopSeller />
+      <Footer />
       </>
     )
   },
