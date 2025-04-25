@@ -53,9 +53,9 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden mt-2 pt-2 border-t">
           <ul className="flex flex-col space-y-2">
-            <li> <NavLink to="/" className="text-blue-600 font-medium px-4 py-2"></NavLink>HOME</li>
-            <li> <NavLink to="/" className="text-gray-800 hover:text-blue-600 transition-colors px-4 py-2"></NavLink>ABOUT</li>
-            <li> <NavLink to="/" className="text-gray-800 hover:text-blue-600 transition-colors px-4 py-2"></NavLink>CONTACT US</li>
+            <li> <NavLink to="/" className="text-blue-600 font-medium px-4 py-2">HOME</NavLink></li>
+            <li> <NavLink to="/about" className="text-gray-800 hover:text-blue-600 transition-colors px-4 py-2">ABOUT</NavLink></li>
+            <li> <NavLink to="/contact" className="text-gray-800 hover:text-blue-600 transition-colors px-4 py-2">CONTACT US</NavLink></li>
           </ul>
         </div>
       )}
