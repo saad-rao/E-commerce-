@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+import FooterImage from '../assets/payments.png';
 
 const Footer = () => {
   return (
@@ -75,7 +76,8 @@ const Footer = () => {
 
           {/* Payment Methods */}
           <div className="flex items-center space-x-4 ">
-            <img src="./src/assets/payments.png" alt="Payment methods" className="h-6  " />
+            <img src={FooterImage}
+             alt="Payment methods" className="h-6  " />
           </div>
         </div>
       </div>
