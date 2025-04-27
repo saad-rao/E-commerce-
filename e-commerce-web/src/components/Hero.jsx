@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Assuming you're using React Router
+import HeroImage from './assets/img_1.png'; // Adjust the path as necessary
 
 const HeroSection = () => {
   return (
@@ -7,7 +8,7 @@ const HeroSection = () => {
       {/* Hero Banner with Background Image */}
       <div className="relative w-full h-[500px] md:h-[600px]">
         <img 
-          src=".src/assets/img_1.png" 
+          src={HeroImage} 
           alt="hero-img" 
           className="w-full h-full object-cover"
         />
