@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import {Link, NavLink } from 'react-router-dom';
+import UserImage from '../assets/user 1.png'; 
+import CartImage from '../assets/shopping-bag 1.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,9 +34,9 @@ const Navbar = () => {
         {/* Icons */}
         <div className="flex items-center space-x-6">
           <div className="flex items-center space-x-6">
-            <img src="./src/assets/user 1.png" alt="user" className="w-6 h-6" />
+            <img src={UserImage} alt="user" className="w-6 h-6" />
             <div className="relative">
-              <img src="./src/assets/shopping-bag 1.png" alt="cart" className="w-6 h-6" />
+              <img src={CartImage} alt="cart" className="w-6 h-6" />
              
             
             </div>
