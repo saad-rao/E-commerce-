@@ -3,6 +3,9 @@ import Navbar from './Navbar'
 import { Link } from 'react-router-dom'
 import Testimonials from './Testimonials'
 import Footer from './Footer'
+import AboutImage from '../assets/Hero.png'
+import AboutImage2 from '../assets/About-img (3).png'
+import AboutImage3 from '../assets/About-img (2).png'
 
 const About = () => {
   return (
@@ -14,7 +17,7 @@ const About = () => {
       {/* Hero Banner with Text Overlay - Full width, no padding */}
       <div className="relative w-full h-[200px] md:h-[250px]">
         <img 
-          src="./src/assets/Hero.png" 
+          src={AboutImage} 
           alt="About Northstar" 
           className="w-full h-full object-cover"
         />
@@ -29,7 +32,7 @@ const About = () => {
           {/* Left Image */}
           <div className="relative h-[350px] md:h-[400px]">
             <img 
-              src="./src/assets/About-img (3).png" 
+              src={AboutImage2}
               alt="Women's Collection" 
               className="w-full h-full object-cover"
             />
@@ -46,7 +49,7 @@ const About = () => {
           {/* Right Image */}
           <div className="relative h-[350px] md:h-[400px]">
             <img 
-              src="./src/assets/About-img (2).png" 
+              src={AboutImage3}
               alt="Men's Collection" 
               className="w-full h-full object-cover"
             />
