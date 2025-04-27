@@ -1,53 +1,62 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Assuming you're using React Router
+import CardImage1 from '../assets/unsplash_KjRkxQ2NNXA.png'; 
+import CardImage2 from '../assets/Rectangle 1.png'; 
+import CardImage3 from '../assets/Rectangle 1 (1).png'; 
+import CardImage4 from '../assets/Rectangle 1 (2).png'; 
+import CardImage5 from '../assets/Rectangle 1 (3).png'; 
+import CardImage6 from '../assets/Rectangle 1 (4).png'; 
+import CardImage7 from '../assets/Rectangle 1 (5).png'; 
+import CardImage8 from '../assets/Rectangle 1 (6).png'; 
+
 
 const ProductGrid = () => {
   const products = [
     {
       id: 1,
-      image: "./src/assets/unsplash_KjRkxQ2NNXA.png",
+      image: CardImage1,
       name: "Plain White Shirt",
       price: 29.00
     },
     {
       id: 2,
-      image: "./src/assets/Rectangle 1.png",
+      image: CardImage2,
       name: "Denim Jacket",
       price: 69.00
     },
     {
       id: 3,
-      image: "./src/assets/Rectangle 1 (1).png",
+      image: CardImage3,
       name: "Black Polo Shirt",
       price: 49.00
     },
     {
       id: 4,
-      image: "./src/assets/Rectangle 1 (2).png",
+      image: CardImage4,
       name: "Blue Sweatshirt",
       price: 79.00
     },
     {
       id: 5,
-      image: "./src/assets/Rectangle 1 (3).png",
+      image: CardImage5,
       name: "Blue Plain Shirt",
       price: 49.00
     },
     {
       id: 6,
-      image: "./src/assets/Rectangle 1 (4).png",
+      image: CardImage6,
       name: "Dark Blue Shirt",
       price: 89.00
     },
     {
       id: 7,
-      image: "./src/assets/Rectangle 1 (5).png",
+      image: CardImage7, 
       name: "Outcast T Shirt",
       price: 19.00
     },
     {
       id: 8,
-      image: "./src/assets/Rectangle 1 (6).png",
+      image: CardImage8,
       name: "Polo Plain Shirt",
       price: 29.00
     }
