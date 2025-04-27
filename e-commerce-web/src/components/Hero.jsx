@@ -7,7 +7,7 @@ const HeroSection = () => {
       {/* Hero Banner with Background Image */}
       <div className="relative w-full h-[500px] md:h-[600px]">
         <img 
-          src=".src/assets/img_1.png" 
+          src="./src/assets/img_1.png" 
           alt="hero-img" 
           className="w-full h-full object-cover"
         />

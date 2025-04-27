@@ -32,9 +32,9 @@ const Navbar = () => {
         {/* Icons */}
         <div className="flex items-center space-x-6">
           <div className="flex items-center space-x-6">
-            <img src=".src/assets/user 1.png" alt="user" className="w-6 h-6" />
+            <img src="./src/assets/user 1.png" alt="user" className="w-6 h-6" />
             <div className="relative">
-              <img src=".src/assets/shopping-bag 1.png" alt="cart" className="w-6 h-6" />
+              <img src="./src/assets/shopping-bag 1.png" alt="cart" className="w-6 h-6" />
              
             
             </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            <img src="src/assets/menu 1.png" alt="menu" className="w-6 h-6" />
+            <img src="./src/assets/menu 1.png" alt="menu" className="w-6 h-6" />
           </button>
         </div>
       </div>

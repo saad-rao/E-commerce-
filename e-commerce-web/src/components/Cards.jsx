@@ -5,49 +5,49 @@ const ProductGrid = () => {
   const products = [
     {
       id: 1,
-      image: "src/assets/unsplash_KjRkxQ2NNXA.png",
+      image: "./src/assets/unsplash_KjRkxQ2NNXA.png",
       name: "Plain White Shirt",
       price: 29.00
     },
     {
       id: 2,
-      image: "src/assets/Rectangle 1.png",
+      image: "./src/assets/Rectangle 1.png",
       name: "Denim Jacket",
       price: 69.00
     },
     {
       id: 3,
-      image: "src/assets/Rectangle 1 (1).png",
+      image: "./src/assets/Rectangle 1 (1).png",
       name: "Black Polo Shirt",
       price: 49.00
     },
     {
       id: 4,
-      image: "src/assets/Rectangle 1 (2).png",
+      image: "./src/assets/Rectangle 1 (2).png",
       name: "Blue Sweatshirt",
       price: 79.00
     },
     {
       id: 5,
-      image: "src/assets/Rectangle 1 (3).png",
+      image: "./src/assets/Rectangle 1 (3).png",
       name: "Blue Plain Shirt",
       price: 49.00
     },
     {
       id: 6,
-      image: "src/assets/Rectangle 1 (4).png",
+      image: "./src/assets/Rectangle 1 (4).png",
       name: "Dark Blue Shirt",
       price: 89.00
     },
     {
       id: 7,
-      image: "src/assets/Rectangle 1 (5).png",
+      image: "./src/assets/Rectangle 1 (5).png",
       name: "Outcast T Shirt",
       price: 19.00
     },
     {
       id: 8,
-      image: "src/assets/Rectangle 1 (6).png",
+      image: "./src/assets/Rectangle 1 (6).png",
       name: "Polo Plain Shirt",
       price: 29.00
     }
@@ -81,7 +81,7 @@ const ProductGrid = () => {
           {/* Free Shipping */}
           <div className="flex items-start space-x-4">
             <div className="flex-shrink-0">
-              <img src="src/assets/icon.png" alt="Free Shipping"  className="w-8 h-8 text-blue-600 object-contain" />
+              <img src="./src/assets/icon.png" alt="Free Shipping"  className="w-8 h-8 text-blue-600 object-contain" />
             </div>
             <div>
               <p className="font-semibold text-sm uppercase text-gray-800 mb-1">FREE SHIPPING</p>
@@ -92,7 +92,7 @@ const ProductGrid = () => {
           {/* Support 24/7 */}
           <div className="flex items-start space-x-4">
             <div className="flex-shrink-0">
-              <img src="src/assets/icon (1).png" alt="Support" className="w-8 h-8 text-blue-600 object-contain" />
+              <img src="./src/assets/icon (1).png" alt="Support" className="w-8 h-8 text-blue-600 object-contain" />
             </div>
             <div>
               <p className="font-semibold text-sm uppercase text-gray-800 mb-1">SUPPORT 24/7</p>
@@ -103,7 +103,7 @@ const ProductGrid = () => {
           {/* 30 Days Return */}
           <div className="flex items-start space-x-4">
             <div className="flex-shrink-0">
-              <img src="src/assets/icon (2).png" alt="Return Policy" className="w-8 h-8 text-blue-600 object-contain" />
+              <img src="./src/assets/icon (2).png" alt="Return Policy" className="w-8 h-8 text-blue-600 object-contain" />
             </div>
             <div>
               <p className="font-semibold text-sm uppercase text-gray-800 mb-1">30 DAYS RETURN</p>
@@ -114,7 +114,7 @@ const ProductGrid = () => {
           {/* Payment Secure */}
           <div className="flex items-start space-x-4">
             <div className="flex-shrink-0">
-              <img src="src/assets/icon (3).png" alt="Secure Payment" className="w-8 h-8 text-blue-600" />
+              <img src="./src/assets/icon (3).png" alt="Secure Payment" className="w-8 h-8 text-blue-600" />
             </div>
             <div>
               <p className="font-semibold text-sm uppercase text-gray-800 mb-1">100% PAYMENT SECURE</p>

@@ -46,7 +46,7 @@ const ContactPage = () => {
     <div className="w-full">
       <div className="relative mb-8">
         <img 
-          src="src/assets/Contact.png" 
+          src="./src/assets/Contact.png" 
           alt="Contact Background" 
           className="w-full h-64 object-cover rounded-lg"
         />

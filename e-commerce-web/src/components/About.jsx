@@ -14,7 +14,7 @@ const About = () => {
       {/* Hero Banner with Text Overlay - Full width, no padding */}
       <div className="relative w-full h-[200px] md:h-[250px]">
         <img 
-          src="src/assets/Hero.png" 
+          src="./src/assets/Hero.png" 
           alt="About Northstar" 
           className="w-full h-full object-cover"
         />
@@ -29,7 +29,7 @@ const About = () => {
           {/* Left Image */}
           <div className="relative h-[350px] md:h-[400px]">
             <img 
-              src="src/assets/About-img (3).png" 
+              src="./src/assets/About-img (3).png" 
               alt="Women's Collection" 
               className="w-full h-full object-cover"
             />
@@ -46,7 +46,7 @@ const About = () => {
           {/* Right Image */}
           <div className="relative h-[350px] md:h-[400px]">
             <img 
-              src="src/assets/About-img (2).png" 
+              src="./src/assets/About-img (2).png" 
               alt="Men's Collection" 
               className="w-full h-full object-cover"
             />
