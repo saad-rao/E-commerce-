@@ -1,29 +1,33 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Assuming you're using React Router
+import { Link } from 'react-router-dom'; 
+import CardImage from '../assets/Rectangle 1 (7).png'; 
+import CardImage2 from '../assets/Rectangle 1 (8).png'; 
+import CardImage3 from '../assets/Rectangle 1 (9).png'; 
+import CardImage4 from '../assets/Rectangle 1 (11).png'; 
 
 const TopSeller = () => {
   const topProducts = [
     {
       id: 1,
-      image: "src/assets/Rectangle 1 (7).png",
+      image: CardImage,
       name: "Gray Polo Shirt",
       price: 49.00
     },
     {
       id: 2,
-      image: "src/assets/Rectangle 1 (8).png",
+      image: CardImage2,
       name: "Red Shirt",
       price: 69.00
     },
     {
       id: 3,
-      image: "src/assets/Rectangle 1 (9).png",
+      image: CardImage3,
       name: "Polo White Shirt",
       price: 29.00
     },
     {
       id: 4,
-      image: "src/assets/Rectangle 1 (11).png",
+      image: CardImage4,
       name: "Pink Casual Shirt",
       price: 39.00
     }
