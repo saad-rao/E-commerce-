@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import ContactImage from '../assets/Contact.png';
+
 
 const ContactPage = () => {
   const [formData, setState] = useState({
@@ -46,7 +48,7 @@ const ContactPage = () => {
     <div className="w-full">
       <div className="relative mb-8">
         <img 
-          src="./src/assets/Contact.png" 
+          src={ContactImage} 
           alt="Contact Background" 
           className="w-full h-64 object-cover rounded-lg"
         />
