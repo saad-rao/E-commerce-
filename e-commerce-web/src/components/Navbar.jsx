@@ -17,17 +17,43 @@ const Navbar = () => {
         {/* Navigation Links - Hidden on mobile, visible on medium screens and up */}
         <div className="hidden md:block">
           <ul className="flex space-x-10">
-          <li> 
-            <NavLink to="/" className="text-blue-600 font-medium px-4 py-2">HOME</NavLink>
-            
-            </li>
-            <li>
-
-
-                 <NavLink to="/about" className="text-gray-800 hover:text-blue-600 transition-colors px-4 py-2">ABOUT</NavLink>
-                 </li>
-            <li>
-                 <NavLink to="/contact" className="text-gray-800 hover:text-blue-600 transition-colors px-4 py-2">CONTACT US</NavLink></li>
+          <li>
+  <NavLink 
+    to="/" 
+    className={({ isActive }) => 
+      isActive 
+       ? "block py-2 px-3 text-gray-900 border-b-2 border-blue-700 md:p-0 dark:text-gray-900" 
+        : "block py-2 px-3 text-gray-900 hover:text-blue-700 hover:border-b-2 hover:border-blue-300 md:p-0 dark:text-gray-900 transition-all duration-300"
+    }
+    aria-current="page"
+  >
+    HOME
+  </NavLink>
+</li>
+<li>
+  <NavLink 
+    to="/about" 
+    className={({ isActive }) => 
+      isActive 
+       ? "block py-2 px-3 text-gray-900 border-b-2 border-blue-700 md:p-0 dark:text-gray-900" 
+        : "block py-2 px-3 text-gray-900 hover:text-blue-700 hover:border-b-2 hover:border-blue-300 md:p-0 dark:text-gray-900 transition-all duration-300"
+    }
+  >
+    ABOUT
+  </NavLink>
+</li>
+<li>
+  <NavLink 
+    to="/contact" 
+    className={({ isActive }) => 
+      isActive 
+        ? "block py-2 px-3 text-gray-900 border-b-2 border-blue-700 md:p-0 dark:text-gray-900" 
+        : "block py-2 px-3 text-gray-900 hover:text-blue-700 hover:border-b-2 hover:border-blue-300 md:p-0 dark:text-gray-900 transition-all duration-300"
+    }
+  >
+    CONTACT US
+  </NavLink>
+</li>
           </ul>
         </div>
 
