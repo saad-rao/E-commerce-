@@ -1,10 +1,21 @@
 import React, { useState } from 'react';
 import {Link, NavLink } from 'react-router-dom';
-import UserImage from '../assets/user 1.png'; 
-import CartImage from '../assets/shopping-bag 1.png';
+import { Badge, Button, Drawer } from 'antd';
+import { ShoppingOutlined, UserOutlined } from '@ant-design/icons';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const [open, setOpen] = useState(false);
+
+  const showDrawer = () => {
+    setOpen(true);
+  };
+
+  const onClose = () => {
+    setOpen(false);
+  };
+
 
   return (
     <nav className="px-6 py-4 bg-white shadow-sm">
@@ -60,10 +71,25 @@ const Navbar = () => {
         {/* Icons */}
         <div className="flex items-center space-x-6">
           <div className="flex items-center space-x-6">
-            <img src={UserImage} alt="user" className="w-6 h-6" />
+            <UserOutlined className='text-2xl cursor-pointer' />
+            {/* <img src={UserImage} alt="user" className="w-6 h-6 cursor-pointer" /> */}
             <div className="relative">
-              <img src={CartImage} alt="cart" className="w-6 h-6" />
+
+              <Badge count={5} className="absolute top-0 right-0">
+                 <ShoppingOutlined className='text-2xl cursor-pointer' onClick={showDrawer} />   
+              </Badge>
+              
              
+      <Drawer
+        title="Products"
+        closable={{ 'aria-label': 'Close Button' }}
+        onClose={onClose}
+        open={open}
+      >
+        <p>Some contents...</p>
+        <p>Some contents...</p>
+        <p>Some contents...</p>
+      </Drawer>
             
             </div>
           </div>
